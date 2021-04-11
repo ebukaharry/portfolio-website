@@ -1,0 +1,249 @@
+html, body.light-theme {
+    background-color: rgb(204, 198, 198);
+    color: #222;
+} 
+
+body.light-theme .main-content .intro h1 {
+    color: #3b3b3b;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 35px;
+}
+
+
+body.light-theme .main-content .main-intro .contact-btn {
+    color: #585656;
+    background: rgb(132, 209, 233);
+}
+
+body.dark-theme .main-content .main-intro .contact-btn {
+    color: #585656;
+    background: rgb(230, 173, 52);
+}
+
+body.light-theme .main-content .main-intro .contact-btn a {
+    text-decoration: none;
+     color: #fff;
+}
+
+html, body.dark-theme {
+    background-color: rgba(21,21,21,1);
+    overflow-x: hidden;
+}
+
+body.light-theme .main-content p, .project-card p {
+    width: 80%;
+    color: rgb(67, 67, 70);
+}
+
+body.light-theme .main-content .menu ul li a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+body.light-theme .projects .project-card {
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(219, 219, 224);
+    padding: 15px;
+}
+
+body.light-theme .projects .project-card h3, h2{
+    color: #413f3f;
+    padding: 10px 20px 0 30px;
+    margin-bottom: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body.light-theme p {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(37, 37, 37);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.main-content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.main-content .main-intro {
+    position: absolute;
+    top: 45%;
+    margin-top: -25%;
+}
+
+body.dark-theme .main-content .intro h1 {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 35px;
+    color: #fff;
+}
+
+.main-content .main-intro .contact-btn {
+    width: 25%;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+body.dark-theme .main-content .main-intro .contact-btn a {
+    text-decoration: none;
+     color: black;
+}
+
+.main-content p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+body.dark-theme .main-content p, .project-card p {
+    width: 80%;
+    color: rgba(148,148,149,1);
+}
+
+.main-content .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body.dark-theme .main-content .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content .menu ul li:first-child {
+    position: relative;
+    right: 20%;
+}
+
+.projects-heading h2 {
+    text-transform: capitalize;
+    font-size: 50px;
+    position: relative;
+    bottom: 60px;
+}
+
+body.dark-theme .projects .project-card {
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgba(32,32,34,1);
+    padding: 15px;
+}
+
+body.dark-theme .projects .project-card h3, h2 {
+    color: #585656;
+    padding: 10px 20px 0 30px;
+    margin-bottom: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body.dark-theme .projects .project-card h2 {
+    color: grey;
+    font-family: 'Nunito', sans-serif;
+}
+
+.projects .project-card h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.projects .project-card h2 {
+    padding-top: 0;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.projects .project-card p {
+    margin: 10px auto 0 auto;  
+    color: #dfd9d9;
+}
+
+.projects .project-card p a {
+    text-decoration: none;
+    color: #746f6f;
+}
+
+.projects .project-card .project-links {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.projects .project-card .project-links .live-site  {
+    position: relative;
+    right: 40%;
+}
+
+.projects .project-card .project-links a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 30px;
+}
+
+body.dark-theme p {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+
+/* @@@@@@@@@@@@@@@ MEDIA QUERIES */
+
+@media screen and (min-width: 1024px) {
+    .main-content .main-intro {
+        top: 85%;
+        padding-left: 200px;
+    }
+
+    .main-content p {
+        width: 66%;
+    }
+
+    .main-content .main-intro .contact-btn {
+        width: 10%;
+    }
+
+    .main-content .menu ul {
+        padding-right: 50px;
+        margin-right: 105px;
+    }
+
+    .main-content .menu ul li:first-child {
+        right: 15%;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 105px;
+    }
+
+   body.dark-theme .projects .project-card, body.light-theme .projects .project-card {
+        width: 32%;
+    }
+    
+    .projects-heading h2 {
+        padding-left: 13rem;
+    }
+
+    .projects .project-card p {
+        margin: 10px 0 0 30px;
+        width: 50%;
+    }
+
+    .projects .project-card .project-links .live-site {
+        right: 50%;
+    }
+}
