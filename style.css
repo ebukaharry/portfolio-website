@@ -12,7 +12,7 @@ body.light-theme .main-content .intro h1 {
 
 body.light-theme .main-content .main-intro .contact-btn {
     color: #585656;
-    background: rgb(132, 209, 233);
+    background: rgba(174, 226, 241, 0.137);
 }
 
 body.dark-theme .main-content .main-intro .contact-btn {
@@ -52,6 +52,19 @@ body.light-theme .projects .project-card h3, h2{
     padding: 10px 0 0 20px;
     margin-bottom: 0;
     font-family: 'Nunito', sans-serif;
+}
+
+body.light-theme .projects .project-card h3 {
+    padding: 10px 20px 0 30px;
+}
+
+body.light-theme .projects .project-card p {
+    color:  rgb(37, 37, 37);
+    margin: 10px auto 0 auto; 
+}
+
+.project-title {
+    padding: 10px 20px 0 30px;
 }
 
 body.light-theme p {
@@ -148,6 +161,10 @@ body.dark-theme .projects .project-card h3, h2 {
     font-family: 'Nunito', sans-serif;
 }
 
+body.dark-theme .projects .project-card h3 {
+     padding: 10px 20px 0 30px;
+}
+
 body.dark-theme .projects .project-card h2 {
     color: grey;
     font-family: 'Nunito', sans-serif;
@@ -165,7 +182,7 @@ body.dark-theme .projects .project-card h2 {
     margin-top: 0;
 }
 
-.projects .project-card p {
+body.dark-theme .projects .project-card p {
     margin: 10px auto 0 auto;  
     color: #dfd9d9;
 }
